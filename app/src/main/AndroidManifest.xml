@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.firstapp.asus.childapps">
+
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE">
+    </uses-permission>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/logo"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/logo"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <meta-data
+                android:name="com.google.android.gms.ads.APPLICATION_ID"
+                android:value="ca-app-pub-1818607113375588~3556756114"/>
+
+        <activity android:name="com.firstapp.asus.childapps.SplashAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list1Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list2Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list3Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list4Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list5Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list6Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list7Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list8Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list9Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.list10Activity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+        <activity
+                android:name="com.firstapp.asus.childapps.AboutActivity"
+                android:parentActivityName="com.firstapp.asus.childapps.MainActivity">
+        </activity>
+    </application>
+
+</manifest>

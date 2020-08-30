@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ছোটদের পাঠশালা</string>
+    <string name="splashscreen">অপেক্ষা করুন...</string>
+    <string name="about">এই অ্যাপসটি মূলত ছোটদের জন্য বানানো হয়েছে।\nযারা প্রথম শ্রেনীতে পড়ে আথবা\nএখনও বিদ্যালয়ে ভর্তি
+        হয়নি।\nএই অ্যাপসটিতে সবকিছু মোটামুটি সহজভাবে দেয়া আছে।\nতারপরেও যদি কোন Suggestion থাকে\nআবশ্যই তা Feedback
+        -সেকশনে জানাবেন।\n
+    </string>
+
+</resources>
